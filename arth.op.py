@@ -1,17 +1,34 @@
-#electric city bill calculator
-units = int(input("Enter electricity unnits"))
+print("hello class")
+age=int(input("enter a age"))
+if(age>=18):
+    print("eligibile for vote")
+    print("eligibile for bike ride")
+else:   
+    print("not eligible for vote")
+    print("not eligible for bike ride")
+print("enter your name")
 
-rate = 6
 
-bill = units * rate
 
-print("Electricity Bill:", bill)
+number=int(input("enter a number:"))
+if(number==1):
+    print("MRD")
+elif(number==2):
+    print("MBU")
+elif(number==3):
+    print("gitam")
+else:
+    print("select another college")
 
-#travel expense calculator
-travel = float (input("travel expense: "))
-food = float(input("Food expense: "))
-hotel =float(input("Hotel expense: "))
 
-total = travel + food + hotel 
 
-print("Total Expence:", total)
+number=int(input("enter a number:"))
+if(number>0):   
+    if(number<50):
+        print("number in between 1-50")
+    else:
+     print("number is greater than 50")
+else: 
+    print("-ve number")
+
+
